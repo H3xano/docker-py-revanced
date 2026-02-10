@@ -50,6 +50,8 @@ class APP(object):
         self.download_file_name = ""
         self.download_dl = config.env.str(f"{app_name}_DL".upper(), "")
         self.download_source = config.env.str(f"{app_name}_DL_SOURCE".upper(), "")
+        if self.download_source and "PATCH_APPS=" in self.download_source:
+             self.download_source = self.download_source.split("PATCH_APPS=")[0]
         self.package_name = package_name
         self.old_key = config.env.bool(f"{app_name}_OLD_KEY".upper(), config.global_old_key)
         self.patches: list[dict[Any, Any]] = []
