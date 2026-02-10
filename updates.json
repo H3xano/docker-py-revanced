@@ -1,1 +1,198 @@
-{}
+{
+    "expensemanager": {
+        "app_version": "latest",
+        "patches_versions": [
+            "v5.48.0"
+        ],
+        "cli_version": "v5.0.1",
+        "ms_epoch_since_patched": 1770744734382,
+        "date_patched": "2026-02-10 17:32:14.382174+05:30",
+        "app_dump": {
+            "app_name": "expensemanager",
+            "app_version": "latest",
+            "experiment": false,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases/latest",
+            "patches_dl_list": [
+                "https://github.com/revanced/revanced-patches/releases/latest"
+            ],
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "2d7026935af86ae1618510c333c6e98bcd084ac4312ff8fd382414464c601e7f.jar",
+                    "version": "v5.0.1"
+                },
+                "patches": {
+                    "file_name": "48e83d3fc71e63b9d2b24fc1ce98a12447832c2a95a54a8d3c712f8d0d6acb72.rvp",
+                    "version": "v5.48.0"
+                }
+            },
+            "patch_bundles": [
+                {
+                    "name": "patches",
+                    "file_name": "48e83d3fc71e63b9d2b24fc1ce98a12447832c2a95a54a8d3c712f8d0d6acb72.rvp",
+                    "version": "v5.48.0"
+                }
+            ],
+            "no_of_patches": 0,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "expensemanager.apk",
+            "download_dl": "https://dw.uptodown.com/dwn/r94g5pPbOkEjnYWB6gpNJEu8TF2XSrBtb_pIar5C4U0x6ad0W-Rs5-GHcEOT5G-nRLmPkLrsU8uIzFm1HOxQtDRnIrn6ci213povqdbJMdipmvbpaOYrdjx4aLbwVOJQ/yZNIefLN5V46LhGTupfD2XTMKGauW9f5pEe46UNe5QmtOMk2qLj-1ltMpQoBKL7WZgUvY0Jqn24ORTU427vndpdbIe4XYE0Rawb-nA8O3IuqufeWkZJnqv7XYiet27qo/LTDLYqNhLlxSBMV7DdPH2ifI4aKO36ObnwLHiFMR6PZDZNNkAFrg4V6oo-Xudci6uKjVkxbRRY7x3tzvJmOIgR5hGuK-SpICkbQSuYXoCKk=/",
+            "download_source": "https://bishinews-expense-manager.en.uptodown.com/android",
+            "package_name": "com.ithebk.expensemanager",
+            "old_key": true,
+            "patches": [],
+            "space_formatted": true
+        }
+    },
+    "youtube_music": {
+        "app_version": "8.10.52",
+        "patches_versions": [
+            "v5.48.0"
+        ],
+        "cli_version": "v5.0.1",
+        "ms_epoch_since_patched": 1770749603257,
+        "date_patched": "2026-02-10 18:53:23.256663+05:30",
+        "app_dump": {
+            "app_name": "youtube_music",
+            "app_version": "8.10.52",
+            "experiment": false,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases/latest",
+            "patches_dl_list": [
+                "https://github.com/revanced/revanced-patches/releases/latest"
+            ],
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "2d7026935af86ae1618510c333c6e98bcd084ac4312ff8fd382414464c601e7f.jar",
+                    "version": "v5.0.1"
+                },
+                "patches": {
+                    "file_name": "48e83d3fc71e63b9d2b24fc1ce98a12447832c2a95a54a8d3c712f8d0d6acb72.rvp",
+                    "version": "v5.48.0"
+                }
+            },
+            "patch_bundles": [
+                {
+                    "name": "patches",
+                    "file_name": "48e83d3fc71e63b9d2b24fc1ce98a12447832c2a95a54a8d3c712f8d0d6acb72.rvp",
+                    "version": "v5.48.0"
+                }
+            ],
+            "no_of_patches": 18,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "youtube_music.apk",
+            "download_dl": "https://dw.uptodown.com/dwn/Jh1v6XfX9p122hqF5RbP8EyrUsuShcA2J4D-jwmoolKAV-4-lQ2Ia5EzzMKIBfJu3q2fDeFdlX2NpKY458itoHA83QFf6E8Lon5FnoC8Nk435OvmwGLbytxya9DGDbbU/oiCyY_fbMfbPWs9v5pWc7SkRo2cN5lVq31X9hCbTUvTwbSRXKa3Xq9mXFUEO2MX5ejrJkX3RcdCEf76Q9GmJW3-Za3SBw7snufchj6ooAfAfKr8GEjbBVhQWiFnX3uKR/qBlOJTv3xQGwY5ZVYDwW10iLbrrimgRnzm_QwgWtGhtnXleUmCm7u3BWv12s8lc8gWsv9b7AOEnxo7qUkst8xyZjXzMF_ZkoF8yactxSviI=/",
+            "download_source": "https://youtube-music.en.uptodown.com/android",
+            "package_name": "com.google.android.apps.youtube.music",
+            "old_key": true,
+            "patches": [],
+            "space_formatted": true
+        }
+    },
+    "youtube": {
+        "app_version": "20.14.43",
+        "patches_versions": [
+            "v5.48.0"
+        ],
+        "cli_version": "v5.0.1",
+        "ms_epoch_since_patched": 1770749600059,
+        "date_patched": "2026-02-10 18:53:20.059042+05:30",
+        "app_dump": {
+            "app_name": "youtube",
+            "app_version": "20.14.43",
+            "experiment": false,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases/latest",
+            "patches_dl_list": [
+                "https://github.com/revanced/revanced-patches/releases/latest"
+            ],
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "2d7026935af86ae1618510c333c6e98bcd084ac4312ff8fd382414464c601e7f.jar",
+                    "version": "v5.0.1"
+                },
+                "patches": {
+                    "file_name": "48e83d3fc71e63b9d2b24fc1ce98a12447832c2a95a54a8d3c712f8d0d6acb72.rvp",
+                    "version": "v5.48.0"
+                }
+            },
+            "patch_bundles": [
+                {
+                    "name": "patches",
+                    "file_name": "48e83d3fc71e63b9d2b24fc1ce98a12447832c2a95a54a8d3c712f8d0d6acb72.rvp",
+                    "version": "v5.48.0"
+                }
+            ],
+            "no_of_patches": 59,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "youtube.apk",
+            "download_dl": "https://dw.uptodown.com/dwn/Jh1v6XfX9p122hqF5RbP8EyrUsuShcA2J4D-jwmoolJn8csAWJmkgUbC-XEDbdGjXalIbu1d3rBdsuE04vK8bc731_cl-lXa8xQ_1Z8NGAPuoxjyUG7et05TM4x_5esn/MT4pGIJYk6TiRjIhgizHU9wU-KhWUcx24vWsAbboFHc_RELQXW-p2WFNGuDkJrOjF3bsBxkUloJJLZBynZzlO35P_EGK-1qG3vTzw9FWwF_UW0rXGzYO2bP11sGItrk9/8UQWvYO85A796VnxpMoKNoBnlZWFXnzqSNl0ONj-U0mV8FOv4LUXdKqNchewBZyN94P0SY75l82_po3yKmRbGA==/",
+            "download_source": "https://youtube.en.uptodown.com/android",
+            "package_name": "com.google.android.youtube",
+            "old_key": true,
+            "patches": [],
+            "space_formatted": true
+        }
+    },
+    "spotify": {
+        "app_version": "latest",
+        "patches_versions": [
+            "v5.48.0"
+        ],
+        "cli_version": "v5.0.1",
+        "ms_epoch_since_patched": 1770753809096,
+        "date_patched": "2026-02-10 20:03:29.096159+05:30",
+        "app_dump": {
+            "app_name": "spotify",
+            "app_version": "latest",
+            "experiment": false,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases/latest",
+            "patches_dl_list": [
+                "https://github.com/revanced/revanced-patches/releases/latest"
+            ],
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "2d7026935af86ae1618510c333c6e98bcd084ac4312ff8fd382414464c601e7f.jar",
+                    "version": "v5.0.1"
+                },
+                "patches": {
+                    "file_name": "48e83d3fc71e63b9d2b24fc1ce98a12447832c2a95a54a8d3c712f8d0d6acb72.rvp",
+                    "version": "v5.48.0"
+                }
+            },
+            "patch_bundles": [
+                {
+                    "name": "patches",
+                    "file_name": "48e83d3fc71e63b9d2b24fc1ce98a12447832c2a95a54a8d3c712f8d0d6acb72.rvp",
+                    "version": "v5.48.0"
+                }
+            ],
+            "no_of_patches": 5,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "spotify.apk",
+            "download_dl": "https://dw.uptodown.com/dwn/azRn8GThtHZkQkeFx4YNHMEJT35y7EXfTKth47qEfcVEhu3jg_25E19NeHJYVP9psWDX6qKXODpLXPEc2mQmES02OkDpfGEBZVaTST87nXb--BYJFtDUWw6jWtnhihLz/PQg5bwtWb03_GkFsTy1Gp_XQIcnae1e9MjnLcDcPnXsSCRucqQuhCXzdomuE3Q_k8iROuRs51KwE_vf8p6Kbfl3U4wed-C3qEkoIN9X5vxmXxpP6J9APuolwQPqzKoBH/ALDiVnyZbJhQTp35Yup44LJexg7BtutSnbIftPEqihC37XAyg_V4Y28QHa6fPyWX3aomTGlG2UP5ifq_kIsP2a19LNrkPWyXxYijOvYehBQ=/",
+            "download_source": "https://spotify.en.uptodown.com/android",
+            "package_name": "com.spotify.music",
+            "old_key": true,
+            "patches": [],
+            "space_formatted": true
+        }
+    }
+}
