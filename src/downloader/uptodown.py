@@ -23,11 +23,20 @@ class UptoDown(Downloader):
         detail_download_button = soup.find("button", id="detail-download-button")
 
         if not isinstance(detail_download_button, Tag):
+            logger.error(f"Could not find detail-download-button on page: {page}")
             msg = f"Unable to download {app} from uptodown."
             raise UptoDownAPKDownloadError(msg, url=page)
 
         data_url = detail_download_button.get("data-url")
+        
+        if not data_url:
+            logger.error(f"data-url attribute missing from button on page: {page}")
+            msg = f"Unable to retrieve data-url for {app} from uptodown."
+            raise UptoDownAPKDownloadError(msg, url=page)
+            
         download_url = f"https://dw.uptodown.com/dwn/{data_url}"
+        logger.debug(f"Final download URL: {download_url}")
+        
         file_name = f"{app}.apk"
         self._download(download_url, file_name)
 
@@ -71,9 +80,20 @@ class UptoDown(Downloader):
                         base_url = version_url_val.get("url")
                         extra = version_url_val.get("extraURL")
                         ver_id = version_url_val.get("versionID")
+                        
+                        if not all([base_url, extra, ver_id]):
+                            logger.error(f"Incomplete versionURL data for {app}: {version_url_val}")
+                            continue
+                            
                         download_url = f"{base_url}/{extra}/{ver_id}-x"
                     else:
                         download_url = f"{version_url_val}-x"
+                        
+                    if not download_url.startswith("http"):
+                         logger.error(f"Invalid download URL constructed: {download_url}")
+                         continue
+
+                    logger.debug(f"Constructed download URL: {download_url}")
                     version_found = True
                     break
 
